@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="Consulta de Aviador"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator5" alignment="1" max="32767" attributes="0"/>
+          <Component id="jSeparator6" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator7" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator8" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator2" alignment="1" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="cdadosPessoais" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="AnteriorButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="ProximoButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="368" max="-2" attributes="0"/>
+                                      <Component id="jButton1" min="-2" pref="145" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="buttonConsultar" min="-2" pref="182" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="192" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="canoConLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Component id="canoConTx" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cnInstLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cnInstTx" min="-2" pref="105" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ccidadeLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ccidadeTx" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cufLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cufTx" min="-2" pref="50" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cnomeLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cnomeTx" min="-2" pref="400" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cenderecoLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cenderecoTx" min="-2" pref="470" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cfoneLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cfoneTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="cnumeroBrvLbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="cnumeroBrvTx" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="cemailLbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="cemailTx" min="-2" pref="150" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                                      <Component id="cregistroLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cregistroTx" min="-2" pref="109" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="ctitulacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="experienciaProfissional" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ctipoDeAeronave" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cdataInicLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                      <Component id="cdataInicTx" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cdataTermLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cdataTermTx" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cdescricaoLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cdescricaoTx" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cempresaLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="cempresaTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="ccidadeProfLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ccidadeProfTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cestadoLbl" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Component id="cestadoTx" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="cmodeloLbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="cmodeloTx" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ccapacidadeLbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ccapacidadeTx" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="chLbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="chTx" min="-2" pref="60" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="AnteriorButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="ProximoButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="cdadosPessoais" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cnomeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cnomeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cenderecoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cenderecoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cfoneLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cfoneTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cemailLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cemailTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cnumeroBrvLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cnumeroBrvTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cregistroLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cregistroTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="ctitulacao" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="canoConLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="canoConTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cnInstLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cnInstTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ccidadeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="ccidadeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cufLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cufTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="experienciaProfissional" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cdataInicLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cdataInicTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cdataTermLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cdataTermTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cdescricaoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cdescricaoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cempresaLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cempresaTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ccidadeProfLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="ccidadeProfTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cestadoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cestadoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ProximoButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AnteriorButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator7" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="ctipoDeAeronave" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cmodeloLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cmodeloTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ccapacidadeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="ccapacidadeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="chLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="chTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AnteriorButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ProximoButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="59" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="buttonConsultar" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="ctitulacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" TITULA&#xc7;&#xc3;O"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="canoConLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(Ano de Conclus&#xe3;o) : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="canoConTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="canoConTxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="canoConTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cnInstLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome da Institui&#xe7;&#xe3;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cnInstTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cnInstTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ccidadeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ccidadeTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ccidadeTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cdadosPessoais">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" DADOS PESSOAIS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cnomeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cnomeTx">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cnomeTxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cenderecoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Endere&#xe7;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cenderecoTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="cenderecoTxFocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cenderecoTxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTextField()"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cenderecoTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cfoneLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Fone : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="cfoneTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="(##)#########" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cfoneTxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cfoneTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cemailLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Email : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cemailTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cemailTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cnumeroBrvLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" N&#xfa;mero do Brev&#xea; : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cnumeroBrvTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="c0" green="c0" id="lightGray" palette="1" red="c0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cnumeroBrvTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cregistroLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registro Profissional : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cregistroTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cregistroTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cufLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="UF : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cufTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cufTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="experienciaProfissional">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" EXPERI&#xca;NCIA PROFISSIONAL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cdataInicLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Data de inicio : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="cdataInicTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cdataInicTxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cdataInicTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cdataTermLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data de Termino : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="cdataTermTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cdataTermTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cdescricaoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Descri&#xe7;&#xe3;o da Atividade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cdescricaoTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cdescricaoTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cempresaLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Empresa : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cempresaTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cempresaTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ccidadeProfLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ccidadeProfTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ccidadeProfTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cestadoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cestadoTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cestadoTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ctipoDeAeronave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE AERONAVE APTA A PILOTAR "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cmodeloLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Modelo : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cmodeloTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="cmodeloTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ccapacidadeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Capacidade de Passageiros : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="ccapacidadeTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ccapacidadeTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="chLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Horas de V&#xf4;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="chTx">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" id="Button.background" palette="3" red="f0" type="palette"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="chTx.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonConsultar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Consultar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonConsultarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator4">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator5">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator7">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator8">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ProximoButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proximo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProximoButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AnteriorButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anterior"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnteriorButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AnteriorButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anterior"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnteriorButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ProximoButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proximo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProximoButton2ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

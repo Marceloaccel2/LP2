@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="Cadastro de Aviador"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jSeparator1" max="32767" attributes="0"/>
+          <Component id="jSeparator2" alignment="1" max="32767" attributes="0"/>
+          <Component id="jSeparator5" max="32767" attributes="0"/>
+          <Component id="jSeparator6" max="32767" attributes="0"/>
+          <Component id="jSeparator8" alignment="1" max="32767" attributes="0"/>
+          <Component id="jSeparator9" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="anoConLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="anoConTx" min="-2" pref="61" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dataInicLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="dataInicTx" min="-2" pref="64" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="nInstLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="nInstTx" min="-2" pref="105" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cidadeLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cidadeTx" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ufLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ufTx" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dataTermLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="dataTermTx" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="descricaoLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="descricaoTx" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Component id="empresaLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="empresaTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cidadeProfLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cidadeProfTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="estadoLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="estadoTx" pref="71" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="experienciaProfissional" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="AdicionarButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tipoDeAeronave" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="Adicionar2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="nomeLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="nomeTx" min="-2" pref="400" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="enderecoLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="enderecoTx" min="-2" pref="470" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="foneLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="foneTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="titulacao" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="342" max="-2" attributes="0"/>
+                                      <Component id="jButton1" min="-2" pref="182" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+                                      <Component id="buttonCadastro" min="-2" pref="182" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="modeloLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="modeloTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="capacidadeLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="capacidadeTx" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="hLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="hTx" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="emailLbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="emailTx" min="-2" pref="150" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="numeroBrvLbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="numeroBrvTx" min="-2" pref="91" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="registroLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="registroTx" min="-2" pref="97" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="dadosPessoais" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Component id="jSeparator3" alignment="1" max="32767" attributes="0"/>
+          <Component id="jSeparator10" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Component id="dadosPessoais" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nomeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="enderecoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="enderecoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="foneLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="foneTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="emailLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="emailTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="numeroBrvLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="numeroBrvTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="registroLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="registroTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="titulacao" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="anoConLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="anoConTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nInstLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nInstTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cidadeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="cidadeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ufLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="ufTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="experienciaProfissional" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Component id="jSeparator9" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dataInicLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="dataInicTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dataTermLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="dataTermTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="descricaoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="descricaoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="empresaLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="empresaTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cidadeProfLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="cidadeProfTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="estadoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="estadoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jSeparator10" min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="AdicionarButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="tipoDeAeronave" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="modeloLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="modeloTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="capacidadeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="capacidadeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="hTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="71" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="buttonCadastro" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jButton1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Adicionar2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="dadosPessoais">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" DADOS PESSOAIS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nomeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nomeTx">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nomeTxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="enderecoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Endere&#xe7;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="enderecoTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="foneLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Fone : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="foneTx">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="(##)#########" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="foneTxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="emailLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Email : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="numeroBrvLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" N&#xfa;mero do Brev&#xea; (Apenas numeros) : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="numeroBrvTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="registroLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registro Profissional(Apenas numeros) : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="registroTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="titulacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" TITULA&#xc7;&#xc3;O"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="anoConLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(Ano de Conclus&#xe3;o) : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="anoConTx">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="anoConTxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nInstLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome da Institui&#xe7;&#xe3;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nInstTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="cidadeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cidadeTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ufLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="UF : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ufTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="experienciaProfissional">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" EXPERI&#xca;NCIA PROFISSIONAL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dataInicLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Data de inicio : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="dataInicTx">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dataInicTxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dataTermLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data de Termino : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="dataTermTx">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dataTermTxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="descricaoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Descri&#xe7;&#xe3;o da Atividade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="descricaoTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="empresaLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Empresa : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="empresaTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="cidadeProfLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cidadeProfTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="estadoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="estadoTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="tipoDeAeronave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE AERONAVE APTA A PILOTAR "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="modeloLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Modelo : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="modeloTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="capacidadeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Capacidade de Passageiros : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="capacidadeTx">
+    </Component>
+    <Component class="javax.swing.JLabel" name="hLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Horas de V&#xf4;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="hTx">
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonCadastro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonCadastroActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="buttonCadastroKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator5">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator8">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator9">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator10">
+    </Component>
+    <Component class="javax.swing.JButton" name="AdicionarButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adicionar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AdicionarButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Adicionar2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adicionar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Adicionar2ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

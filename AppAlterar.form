@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="Atualizar Piloto"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jSeparator9" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="adadosPessoais" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ctipoDeAeronave" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="amodeloLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Component id="amodeloTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="acapacidadeLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="acapacidadeTx" min="-2" pref="40" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="aLimparButton" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="aConsultarButton" min="-2" pref="182" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                      <Component id="aAtualizarButton" min="-2" pref="182" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="ahLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ahTx" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="AnteriorButton3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="AlterarButton3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="ProximoButton3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="aanoConLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Component id="aanoConTx" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="anInstLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="anInstTx" min="-2" pref="105" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="acidadeLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="acidadeTx" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="aufLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="aufTx" min="-2" pref="50" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="anomeLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="anomeTx" min="-2" pref="400" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="aenderecoLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="aenderecoTx" min="-2" pref="470" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="afoneLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="afoneTx" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="anumeroBrvLbl" max="32767" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="anumeroBrvTx" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="aemailLbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="aemailTx" min="-2" pref="150" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                                      <Component id="aregistroLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="aregistroTx" min="-2" pref="109" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="ctitulacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="experienciaProfissional" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="adataInicLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Component id="adataInicTx" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="adataTermLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="adataTermTx" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="adescricaoLbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="adescricaoTx" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="aempresaLbl" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="aempresaTx" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="acidadeProfLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="acidadeProfTx" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="aestadoLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="aestadoTx" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="886" max="-2" attributes="0"/>
+                              <Component id="AnteriorButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="AlterarButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Component id="ProximoButton2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator2" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator5" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator6" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator7" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator8" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="adadosPessoais" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="anomeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="anomeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="aenderecoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="aenderecoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="afoneLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="afoneTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="aemailLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="aemailTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Component id="jSeparator9" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="anumeroBrvLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="anumeroBrvTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="aregistroLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="aregistroTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ctitulacao" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="aanoConLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="aanoConTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="anInstLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="anInstTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="acidadeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="acidadeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="aufLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="aufTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="experienciaProfissional" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="adataInicTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="adataTermLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="adataInicLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="adataTermTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="adescricaoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="adescricaoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="aempresaLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="aempresaTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="acidadeProfLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="acidadeProfTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="aestadoLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="aestadoTx" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AnteriorButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AlterarButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ProximoButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jSeparator7" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ctipoDeAeronave" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="AlterarButton3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="amodeloLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="amodeloTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acapacidadeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="acapacidadeTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ahLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="ahTx" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ProximoButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AnteriorButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="46" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="aAtualizarButton" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="aConsultarButton" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="aLimparButton" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator4">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator5">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="anomeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="anomeTx">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="anomeTxActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="anomeTxKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aenderecoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Endere&#xe7;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="aenderecoTx">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="aenderecoTxFocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aenderecoTxActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="aenderecoTxKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTextField()"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="aenderecoTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="afoneLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Fone : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="afoneTx">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="(##)#########" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="afoneTxActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="afoneTxKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="afoneTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aemailLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Email : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="aemailTx">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aemailTxActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="aemailTxKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="aemailTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="anumeroBrvLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" N&#xfa;mero do Brev&#xea; : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="anumeroBrvTx">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="anumeroBrvTxKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="anumeroBrvTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ctitulacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" TITULA&#xc7;&#xc3;O"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aanoConLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(Ano de Conclus&#xe3;o) : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="aanoConTx">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aanoConTxActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="aanoConTxKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="aanoConTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="anInstLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome da Institui&#xe7;&#xe3;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="anInstTx">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="anInstTxKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="anInstTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="acidadeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="acidadeTx">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="acidadeTxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="acidadeTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="adadosPessoais">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" DADOS PESSOAIS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aregistroLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registro Profissional : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="aregistroTx">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="aregistroTxKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aufLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="UF : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="aufTx">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aufTxActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="aufTxKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="aufTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="experienciaProfissional">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" EXPERI&#xca;NCIA PROFISSIONAL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="adataInicLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Data de inicio : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="adataInicTx">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adataInicTxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="adataInicTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="adataTermLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data de Termino : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="adataTermTx">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="adataTermTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="adescricaoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Descri&#xe7;&#xe3;o da Atividade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="adescricaoTx">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="adescricaoTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aempresaLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Empresa : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="aempresaTx">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="aempresaTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="acidadeProfLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="acidadeProfTx">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="acidadeProfTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aestadoLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="aestadoTx">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="aestadoTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ctipoDeAeronave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE AERONAVE APTA A PILOTAR "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="amodeloLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Modelo : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="amodeloTx">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="amodeloTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="acapacidadeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Capacidade de Passageiros : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="acapacidadeTx">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="acapacidadeTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ahLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Horas de V&#xf4;o : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="ahTx">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ahTx.setEditable(true);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="aAtualizarButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atualizar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aAtualizarButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="aConsultarButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Consultar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aConsultarButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator9">
+    </Component>
+    <Component class="javax.swing.JButton" name="aLimparButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aLimparButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AnteriorButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anterior"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnteriorButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AlterarButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alterar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AlterarButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ProximoButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pr&#xf3;ximo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProximoButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AnteriorButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anterior"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AnteriorButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AlterarButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alterar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AlterarButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ProximoButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pr&#xf3;ximo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProximoButton3ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
